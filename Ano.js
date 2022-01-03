@@ -21,11 +21,11 @@ var table = require("table").table;
 const Discord = require("discord.js");
 const cmd = require("node-cmd");
 const prefix = "a!";
-client.login("تـــــۆکـــــیــــن لـێرە دانێ");
+client.login("TOKEN"); //توکن لێرە دانێ
 client.on("ready", async () => {
   console.log(`Logged in as ${client.user.username}!`);
   client.user.setStatus("idle");
-  client.user.setActivity(`${prefix}help`, { type: "PLAYING" });
+  client.user.setActivity(`${prefix}help |by its7arbi`, { type: "PLAYING" });
   client.guilds.cache.forEach(g => {
     if (g.member(client.user).hasPermission("ADMINISTRATOR")) {
       g.fetchInvites().then(guildInvites => {});
@@ -47,7 +47,7 @@ client.on("message", async message => {
   
 
 ------//------
-⌖| Security
+⌖| Security by : its7ARBI
 > anti ban [Number]
 > anti kick [Number]
 > anti channel [Number]
@@ -56,7 +56,7 @@ client.on("message", async message => {
 > anti ano [on / off] 
 > anti dzha hack [ on ]
 ------//------
-⌖| Public
+⌖| Public by : its7ARBI
 > bot , server , ping , profile , uinvites , hightRole , nick
 > user , avatar , roles , emoji
 ------//------
@@ -65,8 +65,8 @@ client.on("message", async message => {
 > say , unban[userid/all]
 ------//------
 __ [Vote](link top gg) __  
-__ [invite](invitebot) __  __ [Support](https://discord.gg/cetGQvWD3h) __
-Coded By /// ANO ///
+__ [invite](invitebot) __  __ [Support](https://discord.gg/MF87dhYmVJ) __
+Coded By /// its7RABI ///
 `);
     message.channel.send(help);
   }
@@ -1370,4 +1370,4 @@ client.on("message", message => {
     message.channel.send(embed);
   }
 })
-/////by ANO//////
+/////by 7ARBI//////
